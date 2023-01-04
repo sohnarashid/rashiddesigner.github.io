@@ -1,1 +1,0 @@
-# sohnarashid.github.io
