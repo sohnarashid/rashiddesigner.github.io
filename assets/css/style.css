@@ -386,7 +386,7 @@ h6 {
     min-height: 80vh;
     height: auto;
     z-index: 2;
-    background: linear-gradient(180deg, #ffffff 4%, #f5f5f5 96%);
+    /* background: linear-gradient(180deg, #ffffff 4%, #f5f5f5 96%); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1081,6 +1081,13 @@ a:not([href]):not([tabindex]) {
     margin: 0px auto;
     display: block;
 }
+.my-card-logo-b{
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    padding: 6px;
+    align-items: center;
+}
 .work-card{
     width: 100%;
     height: auto;
@@ -1175,10 +1182,11 @@ a:not([href]):not([tabindex]) {
     border-bottom-left-radius: 10px;
 }
 .educational-right .classes-edu .left-edu img {
-    max-width: 75px;
+    max-width: 100px;
     width: 100%;
     margin: 0px auto;
 }
+
 .educational-right .classes-edu .left-edu-a img {
   
     width: 100%;
@@ -1257,7 +1265,7 @@ a:not([href]):not([tabindex]) {
     content: "6";
     position: absolute;
     right: 20%;
-    top: 5%;
+    top: 15%;
     font-size: 170px;
     color: #f9f9f955;
     font-weight: 700;
