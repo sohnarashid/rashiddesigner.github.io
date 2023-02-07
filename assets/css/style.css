@@ -568,6 +568,7 @@ h6 {
     box-shadow: 0px 0px 8px #d3d3d39e;
     border-radius: 5px;
 }
+
 .my-img-c img{
     /*box-shadow: 0px 0px 8px #d3d3d39e;*/
     border-radius: 5px;
@@ -1349,6 +1350,60 @@ a:not([href]):not([tabindex]) {
     border-radius: 10px;
     padding: 10px;
 }
+/* Auto color change start */
+
+ 
+.myheader {
+	background: linear-gradient(40deg, #dbf5ff59, #eaf7f15e, #fdfae05c, #ffeee459, #ffe2eb4f););
+	background-size: auto;
+    
+	animation: gradient 15s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 100% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}       
+.dcard-1{
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    margin: 5px;
+    background-color: #80808029;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+   
+}
+
+
+.dc-icon-1{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    padding: 3px;
+    display: flex;
+    margin: 0px 8px;
+    align-items: center;
+}
+
+.dcard-1 p{
+    display: inline;
+    margin: 0;
+    padding-left: 10px;
+}
+  /* Auto color change end */
+
+
 /*.my-work-view img{
     vertical-align: middle;
     width: 100%;
