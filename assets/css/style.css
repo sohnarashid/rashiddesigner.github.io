@@ -551,9 +551,9 @@ h6 {
 .my-profile-heading p {
     font-weight: normal;
     line-height: 1.8em;
-    font-size: 1.2em;
+    font-size: 1.1em;
     letter-spacing: 0.02em;
-    color: #aaaaaa;
+    color: #959393;
     width: 100%;
     margin: 0 auto;
     margin-top: 2vh;
@@ -1352,11 +1352,26 @@ a:not([href]):not([tabindex]) {
 }
 /* Auto color change start */
 
+.project-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.project-list ul li{
+    list-style: none;
+    width: 33%;
+    float: left;
+    font-size: 14px;
+}
+.project-list  ul li:before {
+    content: "-";
+    position: absolute;
+    margin-left: -16px;
+}
  
 .myheader {
 	background: linear-gradient(40deg, #dbf5ff59, #eaf7f15e, #fdfae05c, #ffeee459, #ffe2eb4f););
 	background-size: auto;
-    
 	animation: gradient 15s ease infinite;
 	
 }
@@ -1395,7 +1410,34 @@ a:not([href]):not([tabindex]) {
     margin: 0px 8px;
     align-items: center;
 }
+.uxcontent{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #A9C9FF;
+background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+}
+.uxcontent img{
+    width: 80px;
+    padding: 11px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #d23257;
+}
+.uxcontent h5{
+    font-weight: 600;
+}
+.uxcontent p{
+    font-size: 14px;
+    
+}
 
+.uxcontent p{
+    color: #000000;
+}
 .dcard-1 p{
     display: inline;
     margin: 0;
@@ -1428,6 +1470,11 @@ a:not([href]):not([tabindex]) {
         position: relative;
         /*box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);*/
         border: 1px solid #e1e1e1;
+    }
+    .project-list ul li{
+        list-style: none;
+        width: 50%;
+        float: left;
     }
     .my-img-c img{
         /*box-shadow: 0px 0px 8px #d3d3d39e;*/
