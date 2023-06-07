@@ -1647,15 +1647,54 @@ a:not([href]):not([tabindex]) {
     margin: 0px 8px;
     align-items: center;
 }
-.uxcontent{
+.uxcontent-a{
     width: 100%;
     height: auto;
     padding: 20px;
     margin: 5px;
     border-radius: 10px;
     color: #000000;
-    background-color: #A9C9FF;
-background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    background-color: #FE80A0;
+    /* background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%); */
+}
+.uxcontent-a p{
+    font-size: 14px;
+}
+.uxcontent-b{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #A395EA;
+}
+.uxcontent-b p{
+    font-size: 14px;
+}
+.uxcontent-c{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #FFCD80;
+}
+.uxcontent-c p{
+    font-size: 14px;
+}
+.uxcontent-d{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #80FFC7;
+}
+.uxcontent-d p{
+    font-size: 14px;
 }
 /* .uxcontent img{
     width: 80px;
@@ -1681,6 +1720,7 @@ background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
     margin: 0px auto;
     align-items: center;
     padding: 5px;
+    margin-top: 2px;
 }
 .uxcontent h5{
     font-weight: 600;
@@ -1725,6 +1765,18 @@ background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
         position: relative;
         /*box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);*/
         border: 1px solid #e1e1e1;
+    }
+    .uxcontent-a p{
+        font-size: 16px;
+    }
+    .uxcontent-b p{
+        font-size: 16px;
+    }
+    .uxcontent-c p{
+        font-size: 16px;
+    }
+    .uxcontent-d p{
+        font-size: 16px;
     }
     .project-list ul li{
         list-style: none;
