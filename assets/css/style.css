@@ -586,8 +586,7 @@ h6 {
     /*min-height: 70vh;*/
     height: auto;
     z-index: 2;
-    background: linear-gradient(
-180deg, #ffffff 4%, #f5f5f5 96%);
+    background: linear-gradient(180deg, #ffffff 4%, #f5f5f5 96%);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -604,6 +603,13 @@ h6 {
 }
 .section-b .my-profile-heading h1{
     color: #fff;
+}
+.section-c-1{
+    background: url(../img/logo-abc.png), linear-gradient(360deg, #ffffff 0.57%, rgba(255, 255, 255, 0.970736) 60.7%, rgba(255, 255, 255, 0.97) 70.1%, rgba(255, 255, 255, 0.86) 93.26%),
+        linear-gradient(90deg, #00beff 8.78%, #ffdc18 53.8%, #ff3278 97.3%);
+    background-repeat: no-repeat;
+    background-position: 80% 50%, 0px 0px, 0px 0px;
+    background-size: auto 30%, auto, auto;
 }
 .section-c{
     background: url(../img/logo-abc.png), linear-gradient(180deg, #ffffff 0.57%, rgba(255, 255, 255, 0.970736) 60.7%, rgba(255, 255, 255, 0.97) 70.1%, rgba(255, 255, 255, 0.86) 93.26%),
@@ -633,7 +639,238 @@ h6 {
     background-size: cover;
     position: relative;
 }
+.ux-section-a{
+    background-image: url(../img/ux-design-services.png);
+    background-repeat: no-repeat;
+    height: auto ;
+    background-size: cover;
+    position: relative;
+}
+.first-card-a{
+    width: 100%;
+    height: 263px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffd857;
+    text-align: center;
+    /* box-shadow: 0px 3px 4px #cccccc; */
+}
+.first-card-b{
+    width: 100%;
+    height: 170px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #d7d7d74d;
+    background-color: #FFE6EC;
+    text-align: center;
+}
+.first-card-b h5{
+    font-size: 18px;
+    font-weight: 500;
+}
 
+.first-card-c{
+    width: 100%;
+    height: 170px;
+    padding: 20px;
+    border: 2px solid #d7d7d74d;
+    border-radius: 15px;
+    background-color: #E6F5FF;
+    text-align: center;
+}
+.first-card-c h5{
+    font-size: 18px;
+    font-weight: 500;
+}
+.first-card-d{
+    width: 100%;
+    height: 170px;
+    padding: 20px;
+    border: 2px solid #d7d7d74d;
+    border-radius: 15px;
+    background-color: #EDEEF3;
+    text-align: center;
+}
+.first-card-d h5{
+    font-size: 18px;
+    font-weight: 500;
+}
+.first-card-e{
+    width: 100%;
+    height: 170px;
+    padding: 20px;
+    border: 2px solid #d7d7d74d;
+    border-radius: 15px;
+    background-color: #EDEAFB;
+    text-align: center;
+}
+.first-card-e h5{
+    font-size: 18px;
+    font-weight: 500;
+}
+.first-card-f{
+    width: 100%;
+    height: 170px;
+    padding: 20px;
+    border: 2px solid #d7d7d74d;
+    border-radius: 15px;
+    background-color: #FFF5E5;
+    text-align: center;
+}
+.first-card-f h5{
+    font-size: 18px;
+    font-weight: 500;
+}
+.first-card-g{
+    width: 100%;
+    height: 170px;
+    padding: 20px;
+    border: 2px solid #d7d7d74d;
+    border-radius: 15px;
+    background-color: #E5FFF4;
+    text-align: center;
+}
+.first-card-g h5{
+    font-size: 18px;
+    font-weight: 500;
+}
+.first-card-h{
+    width: 100%;
+    height: 263px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #5A6B87;
+    text-align: center;
+}
+
+.img-ic{
+    width: 160px;
+    height: 160px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.img-ic img{
+    width: 70%;
+    height: auto;   
+}
+.moreclick{
+    padding-top: 20px;
+    text-align: right;
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+}
+.img-desi{
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff75;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-desi img{
+    width: 70%;
+    height: auto;   
+}
+.img-mob{
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff75;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-mob img{
+    width: 70%;
+    height: auto;   
+}
+.img-weba{
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff75;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-weba img{
+    width: 70%;
+    height: auto;   
+}
+.img-website{
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-website img{
+    width: 70%;
+    height: auto;   
+}
+.img-branding{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-branding img{
+    width: 70%;
+    height: auto;   
+}
+.img-syst{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-syst img{
+    width: 70%;
+    height: auto;   
+}
+.img-dsystm{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-dsystm img{
+    width: 70%;
+    height: auto;   
+}
 .my-button-big button{
     box-sizing: border-box;
     border-radius: 3px;
@@ -1343,12 +1580,12 @@ a:not([href]):not([tabindex]) {
     color: #f9f9f955;
     font-weight: 700;
 }
-.logo-width{
-    width: 150px;
-    height: auto;
+.logo-width {
+    width: 125px;
+    height: 50px;
     border: 1px solid #ededed;
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
 }
 /* Auto color change start */
 
@@ -1514,10 +1751,10 @@ background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
     }
     .my-profile-heading p {
         font-weight: normal;
-        line-height: 1.5em;
-        font-size: 1.2em;
-        letter-spacing: 0.02em;
-        color: #aaaaaa;
+    line-height: 1.5em;
+    font-size: 1em;
+    letter-spacing: 0.02em;
+    color: #7e7e7e;
         width: 100%;
         margin: 0 auto;
         margin-top: 2vh;
