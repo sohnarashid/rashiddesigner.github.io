@@ -1248,9 +1248,9 @@ h6 {
     margin-right: 0;
     padding: 20px;
     border-radius: 10px;
-	background: #ffffff7d;
     border: 1px solid #d7d7d7;
     transition: .3s;
+    background: #ffffff7d;
     cursor: pointer;
 }
 .section-around .around-item .around-item-left {
@@ -1501,7 +1501,7 @@ a:not([href]):not([tabindex]) {
     margin-top: 15px;
 }
 .educational-right .head6 .right-edu:after {
-    content: "6";
+    content: "5";
     position: absolute;
     right: 20%;
     top: 15%;
@@ -1510,7 +1510,7 @@ a:not([href]):not([tabindex]) {
     font-weight: 700;
 }
 .educational-right .classes-edu.headl .right-edu:after {
-    content: "5";
+    content: "4";
     position: absolute;
     right: 20%;
     top: 5%;
@@ -1528,7 +1528,7 @@ a:not([href]):not([tabindex]) {
     font-weight: 700;
 }
 .educational-right .classes-edu.ekk .right-edu:after {
-    content: "4";
+    content: "3";
     position: absolute;
     right: 20%;
     top: 5%;
