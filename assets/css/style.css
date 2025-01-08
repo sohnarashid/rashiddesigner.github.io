@@ -559,7 +559,7 @@ h6 {
     margin-top: 2vh;
     margin-bottom: 12vh;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1267,25 +1267,28 @@ a:not([href]):not([tabindex]) {
     color: inherit;
     text-decoration: none;
 }
+.emailButton .around-item-left{
+    color: #000;
+}
 .emailButton>div {
     color: #fff;
     background: #3288C2;
     border-color: #3288C2!important;
 }
-.section-around .emailButton .around-item .around-item-left {
+/* .section-around .emailButton .around-item .around-item-left {
     color: #fff;
-}
+} */
 .section-around .around-item .around-item-left {
     font-size: 22px;
     font-weight: 700;
     color: #000;
 }
 .emailButton .workDesc {
-    color: #f1f1f1;
+    color: #6e6e6e;
 }
 .workDesc {
     font-weight: 600;
-    color: #8b93a3;
+    color: #b2b3b5;
     font-size: 18px;
 }
 /**/
